@@ -11,7 +11,18 @@ body {
   transition: all 1s ease-in-out;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+:-webkit-any-link {
+  text-decoration: none !important;
+}
+
+:-moz-any-link {
+  text-decoration: none !important;
+}
+
+:any-link {
+  text-decoration: none !important;
 }
 
 .container {
@@ -33,7 +44,7 @@ a {
   flex: 0 0 auto;
   background-color: var(--gallery);
   border-radius: 0 0 24px 24px;
-  box-shadow: var(---perfshadow);
+  box-shadow: var(--perfshadow);
 }
 
 .container .shuffling-the-deck {
@@ -91,7 +102,7 @@ a {
   flex: 0 0 auto;
   background-color: var(--nero);
   border-radius: 24px;
-  box-shadow: var(---perfshadow);
+  box-shadow: var(--perfshadow);
 }
 
 .section-about .headshot {
@@ -265,6 +276,7 @@ a {
 }
 
 .container .CTA {
+  cursor: pointer;
   all: unset;
   box-sizing: border-box;
   display: inline-flex;
@@ -407,7 +419,7 @@ a {
   flex: 0 0 auto;
   background-color: var(--nero);
   border-radius: 24px;
-  box-shadow: var(---perfshadow);
+  box-shadow: var(--perfshadow);
 }
 
 .container section.connect .connect-title {
@@ -457,8 +469,7 @@ a {
   flex: 0 0 auto;
   background-color: var(--gun-powder);
   border-radius: 24px;
-  box-shadow: 0px 10px 10px -3.75px #2f2f6a06,
-    0px 2.29px 2.29px -2.5px #2f2f6a10, 0px 0.6px 0.6px -1.25px #2f2f6a12;
+  box-shadow: var(--perfshadow);
 }
 
 .container .more-about-me {
@@ -484,6 +495,13 @@ a {
 .container .IMG {
   position: relative;
   flex: 0 0 auto;
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--nero);
+  box-shadow: var(--perfshadow);
 }
 
 .container .copyright-all {

@@ -1,0 +1,243 @@
+diff --git a/index.html b/index.html
+index 0995b52..986a3fa 100644
+--- a/index.html
++++ b/index.html
+@@ -43,79 +43,79 @@
+               </div>
+               <div class="row-stretch-3">
+                 <div class="location">
+-                  <img class="ic-location" src="/static/socials/ic_location.svg" />
++                  <img class="ic-location" src="/static/ic_location.svg" />
+                   <div class="text-wrapper-2">New Delhi, India</div>
+                 </div>
+-                <button class="CTA">
++                <a href="/static/Gurek Singh - Product - Resume.pdf" target="_blank" rel="noopener noreferrer" class="CTA">
+                   <div class="text-wrapper-3">More about Me</div>
+-                  <img class="icons-right-arrow" src="/static/socials/ic_right_arrow.svg" />
+-                </button>
++                  <img class="icons-right-arrow" src="/static/ic_right_arrow.svg" />
++                </a>
+               </div>
+             </div>
+           <div class="carousel-skills">
+             <div class="list">
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Product Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>User Experience</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Web Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Interface Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Visual Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="https://c.animaapp.com/uiZRCr4f/img/ic-bullet-5.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Motion Graphics</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="https://c.animaapp.com/uiZRCr4f/img/ic-bullet-6.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Marketing</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="https://c.animaapp.com/uiZRCr4f/img/ic-bullet-7.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Branding</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="https://c.animaapp.com/uiZRCr4f/img/ic-bullet-8.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Product Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="https://c.animaapp.com/uiZRCr4f/img/ic-bullet-9.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>User Experience</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="https://c.animaapp.com/uiZRCr4f/img/ic-bullet-10.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Web Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Interface Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Visual Design</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Motion Graphics</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Marketing</p>
+               </div>
+               <div class="item">
+-                <img class="ic-bullet0" src="/static/socials/ic_bullet.svg" />
++                <img class="ic-bullet" src="/static/ic_bullet.svg" />
+                 <p>Branding</p>
+               </div>
+             </div>
+@@ -128,9 +128,9 @@
+           </div>
+           <button class="button">
+             <div class="more-about-me">Let’s Connect</div>
+-            <img class="icons-right-arrow" src="https://c.animaapp.com/uiZRCr4f/img/icons-right-arrow-3.svg" />
++            <img class="icons-right-arrow" src="/static/ic_right_arrow.svg" />
+           </button>
+-          <img class="IMG" src="https://c.animaapp.com/uiZRCr4f/img/img.svg" />
++          <img class="IMG" src="/static/connect_qr_code.svg" />
+           <div class="div-2">
+             <p class="copyright-all">
+               <span class="text-wrapper-5">© Copyright 2024. All </span>
+diff --git a/static/socials/connect_qr_code.png b/static/socials/connect_qr_code.png
+deleted file mode 100644
+index 58509ea..0000000
+Binary files a/static/socials/connect_qr_code.png and /dev/null differ
+diff --git a/static/socials/ic_bullet.svg b/static/socials/ic_bullet.svg
+deleted file mode 100644
+index 083563d..0000000
+--- a/static/socials/ic_bullet.svg
++++ /dev/null
+@@ -1,11 +0,0 @@
+-<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+-<g clip-path="url(#clip0_94_1099)">
+-<rect width="14" height="14" transform="translate(0 0.5)" fill="white"/>
+-<path d="M4.356 8.226C5.34 8.39 6.11 9.16 6.274 10.144L7 14.5L7.726 10.144C7.89 9.16 8.66 8.39 9.644 8.226L14 7.5L9.644 6.774C8.66 6.61 7.89 5.84 7.726 4.856L7 0.5L6.274 4.856C6.11 5.84 5.34 6.61 4.356 6.774L0 7.5L4.356 8.226Z" fill="#424257"/>
+-</g>
+-<defs>
+-<clipPath id="clip0_94_1099">
+-<rect width="14" height="14" fill="white" transform="translate(0 0.5)"/>
+-</clipPath>
+-</defs>
+-</svg>
+diff --git a/static/socials/ic_location.svg b/static/socials/ic_location.svg
+deleted file mode 100644
+index 5dd77d9..0000000
+--- a/static/socials/ic_location.svg
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+-<path d="M8 4.5C7.50555 4.5 7.0222 4.64662 6.61107 4.92133C6.19995 5.19603 5.87952 5.58648 5.6903 6.04329C5.50108 6.50011 5.45157 7.00277 5.54804 7.48773C5.6445 7.97268 5.8826 8.41814 6.23223 8.76777C6.58186 9.1174 7.02732 9.3555 7.51227 9.45196C7.99723 9.54843 8.49989 9.49892 8.95671 9.3097C9.41352 9.12048 9.80397 8.80005 10.0787 8.38893C10.3534 7.9778 10.5 7.49445 10.5 7C10.5 6.33696 10.2366 5.70107 9.76777 5.23223C9.29893 4.76339 8.66304 4.5 8 4.5ZM8 8.5C7.70333 8.5 7.41332 8.41203 7.16664 8.2472C6.91997 8.08238 6.72771 7.84811 6.61418 7.57403C6.50065 7.29994 6.47094 6.99834 6.52882 6.70736C6.5867 6.41639 6.72956 6.14912 6.93934 5.93934C7.14912 5.72956 7.41639 5.5867 7.70736 5.52882C7.99834 5.47094 8.29994 5.50065 8.57403 5.61418C8.84811 5.72771 9.08238 5.91997 9.2472 6.16664C9.41203 6.41332 9.5 6.70333 9.5 7C9.5 7.39782 9.34196 7.77936 9.06066 8.06066C8.77936 8.34196 8.39782 8.5 8 8.5ZM8 1.5C6.54182 1.50165 5.14383 2.08165 4.11274 3.11274C3.08165 4.14383 2.50165 5.54182 2.5 7C2.5 8.9625 3.40688 11.0425 5.125 13.0156C5.89701 13.9072 6.76591 14.7101 7.71562 15.4094C7.7997 15.4683 7.89985 15.4999 8.0025 15.4999C8.10515 15.4999 8.20531 15.4683 8.28938 15.4094C9.23734 14.7098 10.1046 13.9069 10.875 13.0156C12.5906 11.0425 13.5 8.9625 13.5 7C13.4983 5.54182 12.9184 4.14383 11.8873 3.11274C10.8562 2.08165 9.45818 1.50165 8 1.5ZM8 14.375C6.96688 13.5625 3.5 10.5781 3.5 7C3.5 5.80653 3.97411 4.66193 4.81802 3.81802C5.66193 2.97411 6.80653 2.5 8 2.5C9.19347 2.5 10.3381 2.97411 11.182 3.81802C12.0259 4.66193 12.5 5.80653 12.5 7C12.5 10.5769 9.03312 13.5625 8 14.375Z" fill="#6B6B82"/>
+-</svg>
+diff --git a/static/socials/ic_right_arrow.svg b/static/socials/ic_right_arrow.svg
+deleted file mode 100644
+index cb28b69..0000000
+--- a/static/socials/ic_right_arrow.svg
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+-<path d="M13.8538 8.87149L9.35375 13.5965C9.25993 13.695 9.13268 13.7503 9 13.7503C8.86732 13.7503 8.74007 13.695 8.64625 13.5965C8.55243 13.498 8.49972 13.3644 8.49972 13.225C8.49972 13.0857 8.55243 12.9521 8.64625 12.8536L12.2931 9.02505H2.5C2.36739 9.02505 2.24021 8.96974 2.14645 8.87128C2.05268 8.77282 2 8.63929 2 8.50005C2 8.36081 2.05268 8.22727 2.14645 8.12882C2.24021 8.03036 2.36739 7.97505 2.5 7.97505H12.2931L8.64625 4.14649C8.55243 4.04797 8.49972 3.91436 8.49972 3.77505C8.49972 3.63573 8.55243 3.50212 8.64625 3.40361C8.74007 3.3051 8.86732 3.24976 9 3.24976C9.13268 3.24976 9.25993 3.3051 9.35375 3.40361L13.8538 8.12861C13.9002 8.17737 13.9371 8.23527 13.9623 8.299C13.9874 8.36274 14.0004 8.43105 14.0004 8.50005C14.0004 8.56904 13.9874 8.63736 13.9623 8.70109C13.9371 8.76483 13.9002 8.82273 13.8538 8.87149Z" fill="#424257"/>
+-</svg>
+diff --git a/style.css b/style.css
+index a730d8e..12f1cc7 100644
+--- a/style.css
++++ b/style.css
+@@ -11,7 +11,18 @@ body {
+   transition: all 1s ease-in-out;
+ }
+ a {
+-  text-decoration: none;
++  text-decoration: none !important;
++}
++:-webkit-any-link {
++  text-decoration: none !important;
++}
++
++:-moz-any-link {
++  text-decoration: none !important;
++}
++
++:any-link {
++  text-decoration: none !important;
+ }
+ 
+ .container {
+@@ -33,7 +44,7 @@ a {
+   flex: 0 0 auto;
+   background-color: var(--gallery);
+   border-radius: 0 0 24px 24px;
+-  box-shadow: var(---perfshadow);
++  box-shadow: var(--perfshadow);
+ }
+ 
+ .container .shuffling-the-deck {
+@@ -91,7 +102,7 @@ a {
+   flex: 0 0 auto;
+   background-color: var(--nero);
+   border-radius: 24px;
+-  box-shadow: var(---perfshadow);
++  box-shadow: var(--perfshadow);
+ }
+ 
+ .section-about .headshot {
+@@ -265,6 +276,7 @@ a {
+ }
+ 
+ .container .CTA {
++  cursor: pointer;
+   all: unset;
+   box-sizing: border-box;
+   display: inline-flex;
+@@ -407,7 +419,7 @@ a {
+   flex: 0 0 auto;
+   background-color: var(--nero);
+   border-radius: 24px;
+-  box-shadow: var(---perfshadow);
++  box-shadow: var(--perfshadow);
+ }
+ 
+ .container section.connect .connect-title {
+@@ -484,6 +496,15 @@ a {
+ .container .IMG {
+   position: relative;
+   flex: 0 0 auto;
++  display: flex;
++  padding: 12px;
++  justify-content: center;
++  align-items: center;
++  border-radius: 8px;
++  background: var(--gureks-Nero, #fff);
++
++  /* gureks/perfshadow */
++  box-shadow: var(--perfshadow);
+ }
+ 
+ .container .copyright-all {
+diff --git a/styleguide.css b/styleguide.css
+index dd4f2be..1bebb57 100644
+--- a/styleguide.css
++++ b/styleguide.css
+@@ -49,5 +49,7 @@
+   --inter-semi-bold-36-line-height: normal;
+   --inter-semi-bold-36-font-style: normal;
+ 
+-  --perfshadow: 0px 10px 10px -3.75px rgba(47, 47, 106, 0.02), 0px 2.288530111312866px 2.288530111312866px -2.5px rgba(47, 47, 106, 0.06), 0px 0.6021869778633118px 0.6021869778633118px -1.25px rgba(47, 47, 106, 0.07);
++  --perfshadow: 0px 10px 10px -3.75px rgba(47, 47, 106, 0.05),
++    0px 2.2px 2.2px -2.5px rgba(47, 47, 106, 0.09),
++    0px 0.6px 0.6px -1.25px rgba(47, 47, 106, 0.1);
+ }
