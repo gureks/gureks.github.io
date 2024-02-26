@@ -457,7 +457,7 @@ a {
   font-style: var(--inter-regular-16-font-style);
 }
 
-.container .button {
+.container section.connect a.button {
   all: unset;
   box-sizing: border-box;
   display: inline-flex;
@@ -468,7 +468,7 @@ a {
   position: relative;
   flex: 0 0 auto;
   background-color: var(--gun-powder);
-  border-radius: 24px;
+  border-radius: 32px;
   box-shadow: var(--perfshadow);
 }
 

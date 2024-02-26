@@ -8,7 +8,10 @@ Portfolio 2024 - Bylding in Public.
 
 - [x] Setup GH-Pages, connect with DNS
 - [x] Build in Public - v.01 Release
-- [ ] Fix mobile view - responsiveness not working. - need to change px to rem
+- [ ] Fix mobile view - responsiveness not working
+  - [ ] need to change px to rem
+  - [ ] possible change to %
+  - [ ] fix min/max width for elements
 - [ ] Defragment CSS to SCSS
 - [ ] Fix CSS nomenclature
 - [ ] Reduce reduntant div wrappers
@@ -21,3 +24,4 @@ Portfolio 2024 - Bylding in Public.
 - [ ] Play section
 - [ ] Navigation
 - [ ] Inner Pages - template structure
+- [ ] Dark mode variables
