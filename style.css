@@ -105,6 +105,16 @@ a {
   box-shadow: var(--perfshadow);
 }
 
+.container .section-about .container-description {
+  display: flex;
+  min-width: 240px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
 .section-about .headshot {
   border-radius: 24px;
   background-color: var(--nero);
@@ -128,7 +138,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 210.86px 8px;
+  gap: 8px 8px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -240,7 +250,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 195.36px 8px;
+  gap: 8px 8px;
   display: flex;
   position: relative;
   align-self: stretch;
