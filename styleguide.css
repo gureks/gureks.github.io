@@ -1,0 +1,53 @@
+:root {
+  --gun-powder: rgba(66, 66, 87, 1);
+  --nero: rgba(255, 255, 255, 1);
+  --manatee: rgba(107, 107, 130, 1);
+  --salem: rgba(8, 120, 47, 1);
+  --aero-green: rgba(207, 252, 223, 1);
+  --athens-gray: rgba(249, 249, 251, 1);
+  --gallery: rgba(235, 235, 235, 1);
+
+  --inter-regular-12-font-family: "Inter", Helvetica;
+  --inter-regular-12-font-weight: 400;
+  --inter-regular-12-font-size: 12px;
+  --inter-regular-12-letter-spacing: 0px;
+  --inter-regular-12-line-height: normal;
+  --inter-regular-12-font-style: normal;
+
+  --inter-regular-14-font-family: "Inter", Helvetica;
+  --inter-regular-14-font-weight: 400;
+  --inter-regular-14-font-size: 14px;
+  --inter-regular-14-letter-spacing: 0px;
+  --inter-regular-14-line-height: normal;
+  --inter-regular-14-font-style: normal;
+
+  --inter-regular-16-font-family: "Inter", Helvetica;
+  --inter-regular-16-font-weight: 400;
+  --inter-regular-16-font-size: 16px;
+  --inter-regular-16-letter-spacing: 0px;
+  --inter-regular-16-line-height: normal;
+  --inter-regular-16-font-style: normal;
+
+  --inter-regular-18-font-family: "Inter", Helvetica;
+  --inter-regular-18-font-weight: 400;
+  --inter-regular-18-font-size: 18px;
+  --inter-regular-18-letter-spacing: 0px;
+  --inter-regular-18-line-height: normal;
+  --inter-regular-18-font-style: normal;
+
+  --inter-semi-bold-28-font-family: "Inter", Helvetica;
+  --inter-semi-bold-28-font-weight: 600;
+  --inter-semi-bold-28-font-size: 28px;
+  --inter-semi-bold-28-letter-spacing: 0px;
+  --inter-semi-bold-28-line-height: normal;
+  --inter-semi-bold-28-font-style: normal;
+
+  --inter-semi-bold-36-font-family: "Inter", Helvetica;
+  --inter-semi-bold-36-font-weight: 600;
+  --inter-semi-bold-36-font-size: 36px;
+  --inter-semi-bold-36-letter-spacing: 0px;
+  --inter-semi-bold-36-line-height: normal;
+  --inter-semi-bold-36-font-style: normal;
+
+  --perfshadow: 0px 10px 10px -3.75px rgba(47, 47, 106, 0.02), 0px 2.288530111312866px 2.288530111312866px -2.5px rgba(47, 47, 106, 0.06), 0px 0.6021869778633118px 0.6021869778633118px -1.25px rgba(47, 47, 106, 0.07);
+}
