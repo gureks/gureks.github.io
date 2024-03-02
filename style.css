@@ -3,15 +3,31 @@
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 html,
 body {
   margin: 0px;
   height: 100%;
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
+  cursor: url("/static/cursor-guest.svg"), url("static/cursor-guest.png"), auto;
 }
 a {
   text-decoration: none !important;
+  /* cursor: pointer; */
+  cursor: url("/static/cursor-guest.svg"), url("static/cursor-guest.png"), auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: var(--lambo);
+}
+a:hover {
+  border: 1px dashed var(--lambo);
 }
 :-webkit-any-link {
   text-decoration: none !important;
@@ -42,7 +58,7 @@ a {
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: var(--gallery);
+  background-color: var(--lambo-97);
   border-radius: 0 0 24px 24px;
   box-shadow: var(--perfshadow);
 }
@@ -63,7 +79,7 @@ a {
 .container .text-wrapper {
   font-family: var(--inter-regular-16-font-family);
   font-weight: var(--inter-regular-16-font-weight);
-  color: #6b6b82;
+  color: var(--manatee);
   font-size: var(--inter-regular-16-font-size);
   letter-spacing: var(--inter-regular-16-letter-spacing);
   font-style: var(--inter-regular-16-font-style);
@@ -303,6 +319,21 @@ a {
   font-style: var(--inter-regular-14-font-style);
 }
 
+.container .cta_wrapper {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid rgba(108, 100, 254, 0);
+}
+.container .cta_wrapper:hover {
+  border: 1px solid var(--lambo);
+  box-shadow: var(--perfshadow);
+}
+.container .cta_wrapper:hover .text-wrapper-3,
+.container .cta_wrapper:hover .more-about-me,
+.container .cta_wrapper:hover .icons-right-arrow {
+  border: 1px dashed var(--lambo);
+}
 .container .CTA {
   cursor: pointer;
   all: unset;
@@ -316,8 +347,7 @@ a {
   flex: 0 0 auto;
   background-color: var(--nero);
   border-radius: 24px;
-  box-shadow: 0px 10px 10px -3.75px #2f2f6a06,
-    0px 2.29px 2.29px -2.5px #2f2f6a10, 0px 0.6px 0.6px -1.25px #2f2f6a12;
+  box-shadow: var(--perfshadow);
 }
 
 .container .text-wrapper-3 {
@@ -342,8 +372,9 @@ a {
 
 .container .icons-right-arrow {
   position: relative;
-  align-self: stretch;
+  /* align-self: stretch; */
   width: 16px;
+  height: 16px;
   z-index: 0;
 }
 
@@ -558,7 +589,7 @@ a {
 .container .text-wrapper-5 {
   font-family: var(--inter-regular-12-font-family);
   font-weight: var(--inter-regular-12-font-weight);
-  color: #6b6b82;
+  color: var(--manatee);
   font-size: var(--inter-regular-12-font-size);
   letter-spacing: var(--inter-regular-12-letter-spacing);
   font-style: var(--inter-regular-12-font-style);
