@@ -4,11 +4,11 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 html,
 body {
@@ -57,7 +57,9 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -236,8 +238,14 @@ a:hover {
   border: 1px solid rgba(108, 100, 254, 0);
 }
 .container .list-socials a:hover {
-  border: 1px solid var(--lambo);
+  /* border: 1px solid var(--lambo); */
   box-shadow: var(--perfshadow);
+
+  border-image: url("/static/cta_select_border.svg");
+  border-image-repeat: stretch;
+  border-image-slice: 8;
+  border-image-width: 12px;
+  border-image-outset: 4px;
 }
 .container .list-socials a:hover img {
   border: 1px dashed var(--lambo);
@@ -353,6 +361,12 @@ a:hover {
 .container .cta_wrapper:hover {
   border: 1px solid var(--lambo);
   box-shadow: var(--perfshadow);
+
+  border-image: url("/static/cta_select_border.svg");
+  border-image-repeat: stretch;
+  border-image-slice: 8;
+  border-image-width: 12px;
+  border-image-outset: 4px;
 }
 .container .cta_wrapper:hover .text-wrapper-3,
 .container .cta_wrapper:hover .more-about-me,
